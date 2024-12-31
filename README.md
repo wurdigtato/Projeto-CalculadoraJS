@@ -22,11 +22,6 @@ Este projeto faz parte de um curso de **JavaScript** e implementa uma **calculad
 - Selecione a operação (por exemplo, adição).
 - Clique no botão de operação e o resultado será exibido na tela.
 
-## Demonstração
-
-![Calculadora Simples](images/demo.png)  
-*(Imagem de exemplo mostrando a calculadora em funcionamento)*
-
 ## Como Contribuir
 
 1. Fork o repositório.
