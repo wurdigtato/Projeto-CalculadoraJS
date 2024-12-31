@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 1 - Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <section class="calc_container">
+        <h1 class="calc_Title">Simple Calculator</h1>
+        <div class="calc_form">
+            <input type="text" name="num-one" id="num-one" placeholder="Add value" required>
+            <input type="text" name="num-two" id="num-two" placeholder="Add Value" required>
+            <div class="calc_form-radio">
+                <div>
+                    <input type="radio" name="sign-area" id="add" value="add" >
+                    <label for="">&#x2b;</label>
+                </div>
+                <div>
+                    <input type="radio" name="sign-area" id="sub" value="subtract" >
+                    <label for="">&#x2212;</label>
+                </div>
+                <div>
+                    <input type="radio" name="sign-area" id="mult" value="multiply" >
+                    <label for="">&#xd7;</label>
+                </div>
+                <div>
+                    <input type="radio" name="sign-area" id="div" value="divide" >
+                    <label for="">&#xf7;</label>
+                </div>
+                <div>
+                    <input type="radio" name="sign-area" id="sqr" value="square" class="sqr" >
+                    <label for="">&#x221A;</label>
+                </div>
+            </div>
+            <div><h3 id="result" class="result">Result</h3></div>
+            <button type="submit" class="calc_btn" onclick="teste()">Calculate</button>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
